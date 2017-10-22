@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Florivo</title>
+
+<link href="florivocss.css" rel="stylesheet" type="text/css"/>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="container">
+            <div class="navbar-left navbar header" id="tp" >
+                <a href="index.html"><h1>FLORIVO</h1><h4>We Design Your Special Day</h4></a></div>
+            <div>
+                
+                <ul id="deco" class="nav navbar-nav navbar-right">
+                    <li><p>Contact us : Mr.SUBHASH KUMAR</p></li><br>
+                    <li> PHONE NO: +91-9335159373</li>
+                </ul>  
+            </div>
+            </div></div>
+        <div id="top" style=" padding-top: 3px ;">
+        <ul type="none" id="menu">
+<li><a href="index.html" >Home</a></li>
+<li><a href="aboutus.html" >About Us</a></li>
+<li><a href="#" >Services</a></li>
+<li><a href="gallery.html" >Gallery</a></li>
+<li><a href="fea.html" >Featured Wedding</a></li>
+<li><a href="contact.html" >Contact Us</a></li>
+        </ul></div>
+        <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="img/slideshow/1-1.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/slideshow/1-8.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade ">
+    <div class="numbertext"></div>
+    <img src="img/slideshow/2-9.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/2-32.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/2-40.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/3-1.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/3-6.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/3-13.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-20.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-25.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-28.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-41.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-44.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-51.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-55.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-57.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/4-59.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/6.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/10.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/37.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+            <div class="mySlides fade">
+    <img src="img/slideshow/45.JPG" style="width:80%">
+    <div class="text"></div>
+  </div>
+  
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+   <div id="image">
+            <div class="container">
+                <div id="banner_content">
+                 <h4>We Design Your Special Day</h4>
+                </div>  
+            </div>
+        </div>
+        <div class="container" id="e_content">
+        <h2> Contact Us: +91 9335159373</h2>
+        </div>
+  <script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
+    </body>
+</html>
